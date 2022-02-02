@@ -11,5 +11,50 @@ Problem oppertunity
   
   Azure Machine learning studio
   
-  Deployed model
-  https://gallery.cortanaintelligence.com/Experiment/Covid-Case
+  Here we are using 2 Algorithms 
+  1. Linear Regression
+  2. Neural Network Regression
+  
+  ![image](https://user-images.githubusercontent.com/83619179/152097856-4cdf981d-7e67-4af8-beab-653dd9c741a1.png)
+  
+  ![image](https://user-images.githubusercontent.com/83619179/152098164-f1240a2b-5c6b-4eb5-b0a6-946c17159361.png)
+
+![image](https://user-images.githubusercontent.com/83619179/152098560-d6605723-3f91-4020-ae41-9cbfdc54e6da.png)
+
+1. The input values are to be found
+2. The csv file is converted to dataset
+3. The data miss is cleaned 
+4. Split data
+5. The regression algorithms Linear Regression and Neural Network Regression takes place
+6. The data is trained
+7. Train model
+8. Score model 
+9. Evaluate Model
+10. Output values obtained
+
+In this case the both the training experiment and predicive experiments are done.
+
+The API key: 8Lnx6+i4W7R2i7aFyGh+gmbhrnEpHrdFzd84kmvka7yEKTnt8P8EEKK46oXxmHHQphffTh9FvdPA2g3FEpCkgw==
+
+https://studio.azureml.net/Home/ViewWorkspaceCached/5343e8d2284d47de9d5a3c941a85e8bf#Workspaces/Experiments/Experiment/5343e8d2284d47de9d5a3c941a85e8bf.f-id.06f7bb2e287e4d74aeaaf2223be0b151/ViewExperiment
+
+The data prediction part is done as
+
+1. Cough
+2. Fever
+3. Sore Throat
+4. Shortness of Breath
+5. Headache
+6. Age 60 or Above
+7. Corona Result
+
+By giving these values as sample we can predict.
+
+https://studio.azureml.net/Home/ViewWorkspaceCached/5343e8d2284d47de9d5a3c941a85e8bf#Workspaces/Projects/Project/66450ebc-1dd6-44c3-a580-808dfc470798/ProjectDetails
+![image](https://user-images.githubusercontent.com/83619179/152099769-72e2cbec-d6ba-4b1b-8a23-fc7f9777a34d.png)
+
+After that Deploy web service part is done the project is published to gallery. 
+https://gallery.cortanaintelligence.com/Experiment/Covid-19-prediction-two-algos-Predictive-Exp
+
+
+
